@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-logo {
+  width: 100px;
+  height: auto;
+}
+
+.navbar-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.navbar-nav .nav-link {
+    color: #6c757d; /* Colore di default (grigio) */
+    transition: color 0.3s ease-in-out; /* Transizione fluida */
+  }
+  
+.navbar-nav .nav-link:hover {
+    color: white;  
+    transition: color 0.3s ease-in-out;
+  }
+
+.dropdown-menu {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+.dropdown-item {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    color: #fff;
+  }
+
+  .testoPiccolo {
+    font-size: 0.8rem;
+  }
+
+.dropdown-item:hover {
+    background-color: #6c757d; 
+    color: #fff; 
+  }
