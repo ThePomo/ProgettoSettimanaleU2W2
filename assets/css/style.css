@@ -17,10 +17,10 @@ body {
   margin: 0 10px;
 }
 .navbar-nav .nav-link {
-    color: #6c757d; /* Colore di default (grigio) */
-    transition: color 0.3s ease-in-out; /* Transizione fluida */
+    color: #6c757d;
+    transition: color 0.3s ease-in-out; 
   }
-  
+
 .navbar-nav .nav-link:hover {
     color: white;  
     transition: color 0.3s ease-in-out;
