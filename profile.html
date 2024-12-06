@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <!--Navbar-->
+  <!--Navbar-->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.htm"><img src="assets/img/netflix_logo.png" alt="logo"
-                        class="navbar-logo"></a>
+                <a class="navbar-brand" href="index.htm">
+                    <img src="assets/img/netflix_logo.png" alt="logo" class="navbar-logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -31,8 +32,8 @@
                         <a class="nav-link" href="#">My List</a>
                     </div>
                     <div class="search-icon ms-auto d-flex align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search"
-                            viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-search" viewBox="0 0 16 16">
                             <path
                                 d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                         </svg>
@@ -44,96 +45,73 @@
                         </svg>
                         <a class="navbar-avatar" href="#"><img src="assets/img/avatar.png" alt="avatar"
                                 class="navbar-avatar"></a>
-                        <!--menù dropdown-->
-                        <li class="nav-item dropdown d-flex align-items-center ms-1">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end mt-3">
-                                <li><a class="dropdown-item d-flex align-items-center" href="#"><img
-                                            src="assets/img/avatar.png" alt="avatar" class="navbar-avatar"><span
-                                            class="testoPiccolo">Epicoder #1</span></a></li>
-                                <li><a class="dropdown-item" href="#">Menage Profiles</a></li>
-                                <li><a class="dropdown-item" href="profile.html">Account</a></li>
-                                <li><a class="dropdown-item" href="#">Help Center</a></li>
-                                <br>
-                                <li><a class="dropdown-item" href="#">Signout Netflix</a></li>
-                            </ul>
-                        </li>
                     </div>
-
                 </div>
             </div>
         </nav>
+    </header>
 
-        <!--profilo-->
-        <main>
-            <div class="container text-light py-4 profile-container">
-                <h1 class="mb-3 text-center">Edit Profile</h1>
-                <hr class="border-secondary">
+    <!--profilo-->
+    <main>
+        <div class="container text-light py-4 profile-container">
+            <h1 class="mb-3 text-center">Edit Profile</h1>
+            <hr class="border-secondary">
 
-                <div class="row mb-4 align-items-center">
-                    <div class="col-3 text-center">
-                        <img src="assets/img/avatar.png" alt="Profile" class="rounded img-fluid">
-                    </div>
-                    <div class="col-9">
-                        <input type="text" class="form-control bg-secondary text-light profile-input"
-                            placeholder="Epicoder #1">
-                        <label for="language" class="form-label text-light pt-3 pb-3">Language:</label>
-                        <select id="language" class="form-select bg-black text-light w-auto">
-                            <option selected>English</option>
-                            <option>Italian</option>
-                            <option>French</option>
-                            <option>Spanish</option>
-                        </select>
-                        <hr>
-                    </div>
+            <div class="row mb-4 align-items-center flex-column flex-sm-row">
+                <div class="col-12 col-sm-3 text-center mb-3">
+                    <img src="assets/img/avatar.png" alt="Profile" class="rounded img-fluid">
                 </div>
-
-
-
-
-
-                <div class="row mb-4 align-items-start">
-
-                    <div class="col-md-3 text-center">
-
-                    </div>
-                    <div class="col-md-9">
-
-                        <div class="mb-4">
-                            <label class="form-label text-light">Maturity Settings:</label>
-                            <button class="btn btn-dark w-100 text-start mb-2">ALL MATURITY SETTINGS</button>
-                            <p class="text-secondary">Show titles for all maturity settings for this profile.</p>
-                            <button class="btn btn-outline-light w-auto px-3">EDIT</button>
-                        </div>
-                        <hr>
-                        <div class="mb-4">
-                            <label class="form-label text-light">Autoplay Controls:</label>
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="autoplay1" checked>
-                                <label class="form-check-label text-light" for="autoplay1">Autoplay next episode in
-                                    a series on all devices</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="autoplay2" checked>
-                                <label class="form-check-label text-light" for="autoplay2">Autoplay next episode in
-                                    a series on all devices</label>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-12 col-sm-9 text-center text-sm-start">
+                    <input type="text" class="form-control bg-secondary text-light profile-input mb-3"
+                        placeholder="Epicoder #1">
+                    <label for="language" class="form-label text-secondary pt-3 pb-3">Language:</label>
+                    <select id="language" class="form-select bg-black text-light w-auto mb-3">
+                        <option selected>English</option>
+                        <option>Italian</option>
+                        <option>French</option>
+                        <option>Spanish</option>
+                    </select>
                 </div>
-                <hr>
-
-                <div class="text-center">
-                    <button class="btn btn-outline-secondary px-5 py-2 me-2">SAVE</button>
-                    <button class="btn btn-outline-secondary px-5 py-2 me-2">CANCEL</button>
-                    <button class="btn btn-outline-secondary px-5 py-2">DELETE PROFILE</button>
-                </div>
-
             </div>
+
+            <hr>
+
+           
+            <div class="row mb-4 align-items-center flex-column flex-sm-row">
+                <div class="col-12 col-sm-9 text-center text-sm-start">
+                    <div class="mb-4">
+                        <label class="form-label text-secondary">Maturity Settings:</label>
+                        <button class="btn btn-dark w-100 text-start mb-2">ALL MATURITY SETTINGS</button>
+                        <p class="text-secondary">Show titles for all maturity settings for this profile.</p>
+                        <button class="btn btn-outline-light w-auto px-3">EDIT</button>
+                    </div>
+                </div>
             </div>
-        </main>
+ <hr>
+            <div class="row mb-4 align-items-center flex-column flex-sm-row">
+                <div class="col-12 col-sm-9 text-center text-sm-start">
+                    <label class="form-label text-secondary">Autoplay Controls:</label>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-transparent" type="checkbox" id="autoplay1" checked>
+                        <label class="form-check-label text-secondary" for="autoplay1">Autoplay next episode in a
+                            series on all devices</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input bg-transparent" type="checkbox" id="autoplay2" checked>
+                        <label class="form-check-label text-secondary" for="autoplay2">Autoplay next episode in a
+                            series on all devices</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="text-center">
+                <button class="btn btn-outline-secondary px-5 py-2 me-2">SAVE</button>
+                <button class="btn btn-outline-secondary px-5 py-2 me-2">CANCEL</button>
+                <button class="btn btn-outline-secondary px-5 py-2">DELETE PROFILE</button>
+            </div>
+        </div>
+    </main>
 
 
 

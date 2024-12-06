@@ -112,3 +112,8 @@ input, select, button {
   border-radius: 0 !important;
 }
 
+.form-check-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: white;
+}
