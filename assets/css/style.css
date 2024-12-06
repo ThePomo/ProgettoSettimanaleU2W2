@@ -17,14 +17,14 @@ body {
   margin: 0 10px;
 }
 .navbar-nav .nav-link {
-    color: #6c757d;
-    transition: color 0.3s ease-in-out; 
-  }
+  color: #6c757d;
+  transition: color 0.3s ease-in-out;
+}
 
 .navbar-nav .nav-link:hover {
-    color: white;  
-    transition: color 0.3s ease-in-out;
-  }
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
 
 .dropdown-menu {
   background-color: #000;
@@ -32,17 +32,31 @@ body {
   border: none;
 }
 .dropdown-item {
-    display: flex; 
-    align-items: center; 
-    gap: 10px;
-    color: #fff;
-  }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
 
-  .testoPiccolo {
-    font-size: 0.8rem;
-  }
+.testoPiccolo {
+  font-size: 0.8rem;
+}
 
 .dropdown-item:hover {
-    background-color: #6c757d; 
-    color: #fff; 
-  }
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn {
+  border-radius: 0 !important;
+  background-color: black !important;
+}
+.icon-container {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 30px; 
+    border: 1px solid #fff; 
+    padding: 5px; 
+}
